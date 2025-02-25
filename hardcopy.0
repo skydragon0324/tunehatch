@@ -1,0 +1,63 @@
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'POST /_db/tunehatch/_api/cursor HTTP/1.1\r\n' +
+        'authorization: Basic dHVuZWhhdGNoOjM2MURyYVZpUiN0SA==\r\n' +
+        'content-type: application/json\r\n' +
+        'x-arango-version: 30900\r\n' +
+        'content-length: 646\r\n' +
+        'Host: iris.occident.us:8529\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/_db/tunehatch/_api/cursor',
+      _ended: true,
+      res: [Circular *1],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'iris.occident.us',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kEndCalled)]: true,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(kUniqueHeaders)]: null
+    },
+    body: {
+      code: 400,
+      error: true,
+      errorMessage: "AQL: no value specified for declared bind parameter 'phone' (while parsing)",
+      errorNum: 1551
+    },
+    arangojsHostUrl: 'https://iris.occident.us:8529',
+    [Symbol(kCapture)]: false,
+    [Symbol(kHeaders)]: {
+      'x-content-type-options': 'nosniff',
+      server: 'ArangoDB',
+      connection: 'Keep-Alive',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '134'
+    },
+    [Symbol(kHeadersCount)]: 10,
+    [Symbol(kTrailers)]: null,
+    [Symbol(kTrailersCount)]: 0
+  },
+  errorNum: 1551,
+  code: 400
+}
+

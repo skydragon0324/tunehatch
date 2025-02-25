@@ -1,0 +1,19 @@
+{
+	"files": [
+		{
+			"path": "server/server.js",
+			"bookmarks": [
+				{
+					"line": 80,
+					"column": 15,
+					"label": "Authentication & Helper Functions"
+				},
+				{
+					"line": 202,
+					"column": 14,
+					"label": ""
+				}
+			]
+		}
+	]
+}

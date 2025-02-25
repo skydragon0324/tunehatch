@@ -1,0 +1,17 @@
+{
+    "quickDoc": {
+        "acceptedExtensions": [".js", ".py"],
+        "variablesAndFunctions": {
+            "prompts": [
+                {
+                    "question": "Is this a function, class, or variable",
+                    "title": "Code Type",
+                    "documentation": ""
+                }
+            ]
+        }
+    },
+    "ai": {
+        "onSave": false
+    }
+}
